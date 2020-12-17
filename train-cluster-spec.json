@@ -1,5 +1,5 @@
 {
-    "spark_version": "6.6.x-cpu-ml-scala2.11",
+    "spark_version": "7.3.x-cpu-ml-scala2.12",
     "spark_conf": {
         "spark.sql.warehouse.dir": "dbfs:/mnt/sdh/data/raw/managedtables",
         "spark.databricks.delta.preview.enabled": "true",
