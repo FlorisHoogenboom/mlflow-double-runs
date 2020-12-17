@@ -1,0 +1,5 @@
+name: aop-pax
+conda_env: mlflow-environment.yml
+entry_points:
+    train:
+        command: echo "This should be enough"

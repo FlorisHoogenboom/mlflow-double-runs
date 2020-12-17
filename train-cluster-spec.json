@@ -1,0 +1,13 @@
+{
+    "spark_version": "6.6.x-cpu-ml-scala2.11",
+    "spark_conf": {
+        "spark.sql.warehouse.dir": "dbfs:/mnt/sdh/data/raw/managedtables",
+        "spark.databricks.delta.preview.enabled": "true",
+        "spark.sql.hive.metastore.jars": "builtin",
+        "spark.sql.execution.arrow.enabled": "true",
+        "spark.sql.hive.metastore.version": "1.2.1"
+    },
+    "driver_node_type_id": "Standard_D32s_v3",
+    "node_type_id": "Standard_D16s_v3",
+    "num_workers": 1
+}
